@@ -1,0 +1,30 @@
+{
+    "name": "fredjiles/bing-ads-sdk-php",
+    "description": "Bing Ads API Version 9 and 10 Client Library for PHP.",
+    "keywords": ["bing", "bing-ads","api", "sdk"],
+    "type": "library",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Microsoft",
+            "homepage": "https://code.msdn.microsoft.com/Bing-Ads-API-Version-9-in-fb27761f"
+        },
+        {
+            "name": "Fred Jiles",
+            "email": "fredjiles@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "BingAds\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-develop": "2.0.x-dev"
+        }
+    }
+}
